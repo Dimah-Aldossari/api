@@ -38,7 +38,7 @@ const MainScreen = ({ navigation }) => {
                         <Text style={styles.cardTitle}>{item.Title}</Text>
                     </TouchableOpacity>
                 )}
-                numColumns={1}
+                numColumns={1} // Display two columns of cards
             />
         </View>
     );
